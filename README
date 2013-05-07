@@ -1,0 +1,4 @@
+This is the README file for the EASI_ECG project by Mark Newcomb.  Directories are organized as follows:
+/
+/SW: All firmware and matlab code used to run and evaluate the device
+/HW: All hardware files (gerbers, altium, etc)
