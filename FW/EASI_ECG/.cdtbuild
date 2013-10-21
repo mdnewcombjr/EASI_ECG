@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="MyEzDSPDemo.com.ti.ccstudio.buildDefinitions.C5500.ProjectType.2072059871" name="C5500" projectType="com.ti.ccstudio.buildDefinitions.C5500.ProjectType">
+<configuration artifactExtension="out" artifactName="MyEzDSPDemo" description="" id="com.ti.ccstudio.buildDefinitions.C5500.Debug.1696838695" name="Debug [archived]" parent="com.ti.ccstudio.buildDefinitions.C5500.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.DebugToolchain.634525427" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.812109478">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.1578199020" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="4.3.2" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1315041140" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C55XX.TMS320C5505"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=big"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts55x.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.1"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.compilerDebug.1817104750" name="C5500 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.DIAG_WARNING.1033077886" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE.1983035975" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE.32" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL.1234375833" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL.large" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.SILICON_VERSION.313947121" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.SILICON_VERSION" value="5505" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.INCLUDE_PATH.297600834" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;C:\c55xx_csl_3.00\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}\include&quot;"/>
+</option>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.812109478" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.OUTPUT_FILE.1505019561" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.OUTPUT_FILE" value="&quot;MyEzDSPDemo.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.MAP_FILE.1631315092" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.MAP_FILE" value="&quot;MyEzDSPDemo.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.LIBRARY.44137889" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts55x.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;cslVC5505.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.SEARCH_PATH.1118218793" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;C:\c55xx_csl_3.00\build&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C5500.Debug.1696838695./MyEzDSPDemo/usbstk5505bsl.lib" name="usbstk5505bsl.lib" rcbsApplicability="disable" resourcePath="/MyEzDSPDemo/usbstk5505bsl.lib" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.812109478./MyEzDSPDemo/usbstk5505bsl.lib">
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.812109478./MyEzDSPDemo/usbstk5505bsl.lib" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.812109478"/>
+</resourceConfiguration>
+</configuration>
+<configuration artifactExtension="out" artifactName="MyEzDSPDemo" description="" id="com.ti.ccstudio.buildDefinitions.C5500.Release.1085411976" name="Release" parent="com.ti.ccstudio.buildDefinitions.C5500.Release">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.ReleaseToolchain.1813946633" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerRelease.703696098">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.409171518" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="4.3.2" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1684977766" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C55XX.TMS320C5505"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=big"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts55x.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.1"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.compilerRelease.1242384065" name="C5500 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.compilerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.DIAG_WARNING.1701371333" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE.19764922" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE.32" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL.578204984" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL.large" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.SILICON_VERSION.915885179" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.SILICON_VERSION" value="5505" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.INCLUDE_PATH.1646982639" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;C:\c55xx_csl_3.00\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MyEzDSPDemo/include}&quot;"/>
+</option>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerRelease.703696098" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.OUTPUT_FILE.1335636323" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.OUTPUT_FILE" value="&quot;MyEzDSPDemo.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.MAP_FILE.1840192406" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.MAP_FILE" value="&quot;MyEzDSPDemo.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.LIBRARY.1200591824" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts55x.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;cslVC5505.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.SEARCH_PATH.2032829484" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;C:\c55xx_csl_3.00\build&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="out" artifactName="EASI_ECG" description="" id="com.ti.ccstudio.buildDefinitions.C5500.Debug.115523428" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C5500.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.DebugToolchain.1217846418" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.1843220356">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.869552637" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="4.3.2" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.201169783" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=com.ti.ccstudio.deviceModel.C5500.GenericC55xxDevice"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=big"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts55x.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.1"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.compilerDebug.1361766445" name="C5500 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.SILICON_VERSION.1219342834" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.SILICON_VERSION" value="5505" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.INCLUDE_PATH.690391828" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;C:\dsplib_2.40.00\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}\include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;C:\c55xx_csl_3.00\inc&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.DIAG_WARNING.1328092826" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE.1427615839" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.PTRDIFF_SIZE.16" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL.1687485619" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.MEMORY_MODEL.large" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.ASM_SOURCE.1991102671" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.ASM_SOURCE" value="com.ti.ccstudio.buildDefinitions.C5500_4.3.compilerID.ASM_SOURCE.mnemonic" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.1843220356" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.OUTPUT_FILE.34979691" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.OUTPUT_FILE" value="&quot;EASI_ECG.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.MAP_FILE.395153883" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.MAP_FILE" value="&quot;MyEzDSPDemo.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.LIBRARY.1747395358" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;cslVC5505.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;55xdspx.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;rts55x.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.SEARCH_PATH.3286797" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;C:\dsplib_2.40.00&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;C:\c55xx_csl_3.00\build&quot;"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.C5500.Debug.115523428./MyEzDSPDemo/usbstk5505bsl.lib" name="usbstk5505bsl.lib" rcbsApplicability="disable" resourcePath="/MyEzDSPDemo/usbstk5505bsl.lib" toolsToInvoke="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.1843220356./MyEzDSPDemo/usbstk5505bsl.lib">
+<tool id="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.1843220356./MyEzDSPDemo/usbstk5505bsl.lib" name="C5500 Linker" superClass="com.ti.ccstudio.buildDefinitions.C5500_4.3.exe.linkerDebug.1843220356"/>
+</resourceConfiguration>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

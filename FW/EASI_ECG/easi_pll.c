@@ -1,0 +1,62 @@
+#include "easi_pll.h"
+
+//Some documentation on PLL_Config, since TI's docs are an unfortunate mixture of wrong, confusing, and outdated:
+//
+//---PLLCNTL1---
+//CGCR1->M = PLLCNTL1 & 0x0fff
+//CGCR->PLLPWRDN = PLLCNTL1 & 0x1000
+//
+//---PLLINCNTL---
+//CGCR2->RDBYPASS = PLLINCNTL & 0x8000
+//CGCR2->RDRATIO = PLLINCNTL & 0x0fff
+//
+//---PLLCNTL2---
+//CGCR3->INIT = PLLCNTL2.  Should ALWAYS be set to 0x0806
+//
+//---PLLOUTCNTL---
+//CGCR4->OUTDIVEN = PLLOUTCNTL & 0x0200
+//CGCR4->ODRATIO = PLLOUTCNTL & 0x00ff
+#define TIMEOUT (0x12c0)
+
+#define SYS CSL_SYSCTRL_REGS
+
+
+
+Uint8 EASI_PLL_INIT()
+{
+	Uint16 timeout = TIMEOUT;
+	
+	//Go into BYPASS mode
+	CSL_FINST(SYS->CCR2,SYS_CCR2_SYSCLKSEL,BYPASS);
+	
+	//Clear RSVD in CGCR1
+	CSL_FINST(SYS->CGCR1,SYS_CGCR1_RSVD,CLEAR);
+	
+	//Program RDRATIO,M,& BYPASS in CGCR1 and CGCR2
+	SYS->CGCR2 = PLLINCNTL;
+	CSL_FINS(SYS->CGCR1,SYS_CGCR1_M,(PLLCNTL1 & CSL_SYS_CGCR1_M_MASK));
+	
+	//Program ODRATIO and OUTDIVEN in CGCR4
+	SYS->CGCR4 = PLLOUTCNTL;
+	
+	//Program CGCR3
+	SYS->CGCR3 = PLLCNTL2;
+	
+	//Set PLL_PWRDN = 0
+	CSL_FINS(SYS->CGCR1,SYS_CGCR1_PLL_PWRDN,CSL_FEXT(PLLCNTL1,SYS_CGCR1_PLL_PWRDN));
+	
+	//Set RSVD = 1 in CGCR1
+	CSL_FINST(SYS->CGCR1,SYS_CGCR1_RSVD,SET);
+	
+	while(timeout--);
+	
+	//Select the pll
+	CSL_FINST(SYS->CCR2,SYS_CCR2_SYSCLKSEL,LOCK);
+	
+	return (0);
+	
+}
+
+
+
+
